@@ -8,7 +8,7 @@ body{
 }
 
 #main{
-    margin: 5% 10% 22px 10%;
+    margin: 3% 10% 22px 10%;
     /* border: 1px solid red; */
     /* justify-content: center; */
 }
@@ -19,15 +19,34 @@ body{
     margin: 22px 0;
 }
 
-.contents{
-    border: 1px solid black;
+#titleh1{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+    gap: 8px;
+}
+#titleh1 #h1span{
+    padding: 4px 8px;
+    background-color: #7f1d1d;
+    border-radius: 4px;
+    color: white;
+
+}
+.contents{
+    border: 1px solid #475569;
+    padding: 20px 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
     margin: 55px 0;
 }
 .box{
-    /* border: 1px solid blue; */
+    border: 1px solid #1F2937;
+    padding: 20px 12px;
+    border-radius: 8px;
+
 }
 .box h3{
     margin-bottom: 12px;
@@ -43,4 +62,29 @@ body{
 .box img:hover{
     opacity: 0.7;
     transition: 300ms;
+}
+
+@media screen and (max-width:1024px) {
+    #main{
+        margin: 2% 5% 22px 5%;
+    }
+}
+@media screen and (max-width:425px) {
+    .box img{
+        max-height: 150px;
+        max-width: 250px;
+    }
+    .contents{
+        border: none;
+    }
+    #titleh1{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:320px) {
+    .box img{
+        max-height: 140px;
+        max-width: 210px;
+    }
+
 }
