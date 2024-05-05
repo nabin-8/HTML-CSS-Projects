@@ -403,6 +403,7 @@ margin-bottom: 20px;
         display: flex;
         font-size: 20px;
         border-radius: 2px;
+        transition-duration: 400ms;
     }
 
     #btn-down:hover{
