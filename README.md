@@ -1,10 +1,6 @@
-# 8-Mini-Projects
-8 Mini Projects Challenge done using HTML&amp; CSS.
+# HTML CSS Projects
 
-|Projects| [link](https://nabin-8.github.io/8-Mini-Projects/)|
-|---|---|
+| Projects | [link](https://nabin-8.github.io/HTML-CSS-Projects/) |
+| -------- | ---------------------------------------------------- |
 
-
----
-![](/assets/img/siteimg.png)
 ---
