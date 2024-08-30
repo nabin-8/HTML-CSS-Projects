@@ -176,6 +176,7 @@ nav {
     .nav-menus ul li {
         display: flex;
         flex-direction: column;
+
     }
 
     .img-section {

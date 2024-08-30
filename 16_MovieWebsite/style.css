@@ -63,10 +63,19 @@ footer {
 .front-content {
     position: relative;
     padding: 0 2px;
-    bottom: 100px;
+    bottom: 80px;
     left: 0px;
     width: 100%;
     overflow: hidden;
+    transition: 300ms;
+}
+
+.front-content:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: #004bad91;
+    color: white;
+    border-radius: 8px;
 }
 
 .view-movies>img:hover {
