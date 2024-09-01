@@ -1,0 +1,189 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D2D2D2;
+
+}
+
+#main-section-container {
+    width: 70%;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 60% 30%;
+}
+
+.left-container {
+    display: grid;
+    gap: 20px;
+}
+
+.left-container>nav,
+.left-container>#left-bottom-section {
+    background-color: #F0F0F4;
+    padding: 18px;
+    border-radius: 20px;
+}
+
+.left-container>nav>input,
+.left-container>nav>select {
+    height: 38px;
+    border-radius: 0 8px 8px 0;
+    border: none;
+}
+
+.left-container>nav>input {
+    width: 400px;
+    border-radius: 8px 0 0 8px;
+    padding-left: 10px;
+}
+
+.left-container>nav>select {
+    width: 150px;
+    padding-left: 10px;
+}
+
+.left-container>nav>button {
+    background-color: #FF60A2;
+    padding: 12px;
+    width: 100px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.botton-section-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.botton-section-top>h3 {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+.job-main-searchs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.job-main-containers {
+    width: 350px;
+    padding: 18px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.job-top-container {
+    display: flex;
+    gap: 10px;
+}
+
+.job-img-container {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DEDEDD;
+    border-radius: 4px;
+}
+
+.job-img-container>img {
+    height: 35px;
+    width: 35px;
+}
+
+.job-img-left>h3 {
+    margin: 0 0 10px 0;
+}
+
+.job-img-left>span,
+.job-uploaded-time,
+.bottom-right-title>.bottom-right-title-company-name {
+    color: #858383;
+}
+
+.job-middle-container {
+    display: flex;
+    column-gap: 8px;
+    margin: 10px 0;
+}
+
+.job-middle-container>p {
+    padding: 6px;
+    background-color: #DEDEDD;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: 300ms;
+}
+
+.job-middle-container>p:hover {
+    background-color: #bdbdbd;
+    cursor: pointer;
+}
+
+.job-bottom-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* right container */
+.right-container {
+    background-color: white;
+    padding: 18px;
+    border-radius: 20px;
+}
+
+
+.bottom-right-title #applications {
+    padding: 12px;
+    background-color: #FDE3EF;
+    display: inline;
+    border-radius: 8px;
+    transition: 300ms;
+}
+
+.bottom-right-title #applications:hover {
+    background-color: #f4b4d2;
+    cursor: pointer;
+}
+
+.right-container-line {
+    border: none;
+    margin: 40px 10px;
+    border-bottom: 2.5px solid #F4F4F4;
+}
+
+.right-button-container>button {
+    background-color: #FF60A2;
+    color: white;
+    margin-top: 40px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 300ms;
+}
+
+.bottom-right-title-company-name {
+    margin: 20px 0;
+}
+
+.right-button-container>button:hover,
+.left-container>nav>button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
