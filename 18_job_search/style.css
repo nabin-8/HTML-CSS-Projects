@@ -236,3 +236,16 @@ h3 {
         display: none;
     }
 }
+
+@media screen and (max-width:375px) {
+
+    .left-container>nav,
+    .job-main-containers,
+    .left-container>#left-bottom-section {
+        padding: 12px;
+    }
+
+    .job-middle-container>p {
+        font-size: 12px;
+    }
+}
