@@ -187,3 +187,53 @@ h3 {
     opacity: 0.9;
     cursor: pointer;
 }
+
+@media screen and (max-width:1440px) {
+    #main-section-container {
+        width: 90%;
+    }
+
+    .job-main-containers {
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    #main-section-container {
+        width: 90%;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    .job-main-containers {
+        width: 250px;
+    }
+
+    .left-container>nav>input {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #main-section-container {
+        grid-template-rows: 1fr;
+    }
+
+    .job-main-searchs {
+        grid-template-columns: none;
+        gap: 0;
+        row-gap: 20px;
+        border: 1px solid blue;
+    }
+
+    .right-container {
+        visibility: hidden;
+        display: none;
+    }
+}
